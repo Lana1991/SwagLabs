@@ -1,0 +1,11 @@
+{
+
+  "baseURL": "https://www.saucedemo.com/",
+  "password": "secret_sauce",
+  "standardUser": "standard_user",
+  "lockedOutUser": "locked_out_user",
+  "firstName" : "Lana",
+  "lastName" : "Jaramaz",
+  "zipCode" : "11000"
+
+}

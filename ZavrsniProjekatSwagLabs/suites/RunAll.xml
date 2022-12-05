@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test All">
+
+    <test name="Log In Valid">
+        <classes>
+            <class name="LogInValid"/>
+        </classes>
+    </test>
+
+    <test name="Log In Empty">
+        <classes>
+            <class name="LogInEmpty"/>
+        </classes>
+    </test>
+
+    <test name="Check Out">
+        <classes>
+            <class name="CheckOut"/>
+        </classes>
+    </test>
+
+    <test name="Log Out">
+        <classes>
+            <class name="LogOut"/>
+        </classes>
+    </test>
+
+    <test name="PLP Sorting">
+        <classes>
+            <class name="PLPSorting"/>
+        </classes>
+    </test>
+
+    <!--     mvn test -Dsurefire.suiteXmlFiles=src/test/resources/RunAll.xml-->
+</suite>
